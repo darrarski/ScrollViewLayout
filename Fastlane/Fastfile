@@ -1,0 +1,23 @@
+fastlane_version '2.103.0'
+default_platform :ios
+
+xc_workspace = 'ScrollViewLayout.xcworkspace'
+xc_project = 'ScrollViewLayout.xcodeproj'
+tests_scheme = 'Tests'
+
+platform :ios do
+
+  desc 'Bootstrap project'
+  lane :setup do
+    carthage(platform: 'iOS')
+  end
+
+  desc 'Run tests'
+  lane :test do
+    scan(
+      workspace: xc_workspace,
+      scheme: tests_scheme
+    )
+  end
+
+end
