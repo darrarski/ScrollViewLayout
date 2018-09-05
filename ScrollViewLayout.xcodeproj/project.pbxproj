@@ -19,6 +19,8 @@
 		314015E6214072D400E3BABD /* ScrollViewLayoutUpdaterSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314015E5214072D400E3BABD /* ScrollViewLayoutUpdaterSpec.swift */; };
 		314015E82140756800E3BABD /* ScrollViewTopBackgroundLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314015E72140756800E3BABD /* ScrollViewTopBackgroundLayout.swift */; };
 		314015EA214075C100E3BABD /* ScrollViewTopBackgroundLayoutSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314015E9214075C100E3BABD /* ScrollViewTopBackgroundLayoutSpec.swift */; };
+		314015EC21407DCE00E3BABD /* ScrollViewBottomBackgroundLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314015EB21407DCE00E3BABD /* ScrollViewBottomBackgroundLayout.swift */; };
+		314015EE21407DF800E3BABD /* ScrollViewBottomBackgroundLayoutSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314015ED21407DF800E3BABD /* ScrollViewBottomBackgroundLayoutSpec.swift */; };
 		31BD317A213F2789009CDA5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BD3179213F2789009CDA5A /* AppDelegate.swift */; };
 		31BD317C213F2789009CDA5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BD317B213F2789009CDA5A /* ViewController.swift */; };
 		31BD3181213F278A009CDA5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31BD3180213F278A009CDA5A /* Assets.xcassets */; };
@@ -89,6 +91,8 @@
 		314015E5214072D400E3BABD /* ScrollViewLayoutUpdaterSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewLayoutUpdaterSpec.swift; sourceTree = "<group>"; };
 		314015E72140756800E3BABD /* ScrollViewTopBackgroundLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewTopBackgroundLayout.swift; sourceTree = "<group>"; };
 		314015E9214075C100E3BABD /* ScrollViewTopBackgroundLayoutSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewTopBackgroundLayoutSpec.swift; sourceTree = "<group>"; };
+		314015EB21407DCE00E3BABD /* ScrollViewBottomBackgroundLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewBottomBackgroundLayout.swift; sourceTree = "<group>"; };
+		314015ED21407DF800E3BABD /* ScrollViewBottomBackgroundLayoutSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewBottomBackgroundLayoutSpec.swift; sourceTree = "<group>"; };
 		31BD3176213F2789009CDA5A /* ExampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31BD3179213F2789009CDA5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		31BD317B213F2789009CDA5A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -136,6 +140,7 @@
 			isa = PBXGroup;
 			children = (
 				31321B63214052E500C25D5D /* Info.plist */,
+				314015ED21407DF800E3BABD /* ScrollViewBottomBackgroundLayoutSpec.swift */,
 				314015E121406A3F00E3BABD /* ScrollViewLayoutControllerSpec.swift */,
 				31321B61214052E500C25D5D /* ScrollViewLayoutSpec.swift */,
 				314015E5214072D400E3BABD /* ScrollViewLayoutUpdaterSpec.swift */,
@@ -184,6 +189,7 @@
 			isa = PBXGroup;
 			children = (
 				31BD3193213F2BBE009CDA5A /* Info.plist */,
+				314015EB21407DCE00E3BABD /* ScrollViewBottomBackgroundLayout.swift */,
 				31BD3192213F2BBE009CDA5A /* ScrollViewLayout.h */,
 				31BD31AE213F2CDF009CDA5A /* ScrollViewLayoutController.swift */,
 				314015DB2140619A00E3BABD /* ScrollViewLayoutControlling.swift */,
@@ -349,6 +355,7 @@
 				314015EA214075C100E3BABD /* ScrollViewTopBackgroundLayoutSpec.swift in Sources */,
 				314015E6214072D400E3BABD /* ScrollViewLayoutUpdaterSpec.swift in Sources */,
 				314015E221406A3F00E3BABD /* ScrollViewLayoutControllerSpec.swift in Sources */,
+				314015EE21407DF800E3BABD /* ScrollViewBottomBackgroundLayoutSpec.swift in Sources */,
 				31321B62214052E500C25D5D /* ScrollViewLayoutSpec.swift in Sources */,
 				314015E421406AA800E3BABD /* ScrollViewLayoutUpdatingDouble.swift in Sources */,
 			);
@@ -369,6 +376,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				314015EC21407DCE00E3BABD /* ScrollViewBottomBackgroundLayout.swift in Sources */,
 				314015DE214065B700E3BABD /* ScrollViewLayoutUpdating.swift in Sources */,
 				314015E02140664900E3BABD /* ScrollViewLayoutUpdater.swift in Sources */,
 				31BD31AF213F2CDF009CDA5A /* ScrollViewLayoutController.swift in Sources */,
