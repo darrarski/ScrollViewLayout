@@ -1,5 +1,6 @@
 import UIKit
 
+/// UIScrollView's subview layout controller
 public final class ScrollViewLayoutController: ScrollViewLayoutControlling {
 
     // MARK: ScrollViewLayoutControlling

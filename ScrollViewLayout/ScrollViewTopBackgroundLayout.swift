@@ -1,5 +1,6 @@
 import UIKit
 
+/// UIScrollView's top background view layout updater
 public final class ScrollViewTopBackgroundLayout: ScrollViewLayoutUpdating {
 
     public init() {}
