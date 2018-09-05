@@ -1,9 +1,8 @@
 fastlane_version '2.103.0'
 default_platform :ios
 
-xc_workspace = 'ScrollViewLayout.xcworkspace'
 xc_project = 'ScrollViewLayout.xcodeproj'
-tests_scheme = 'Tests'
+tests_scheme = 'ScrollViewLayout'
 
 platform :ios do
 
@@ -15,7 +14,7 @@ platform :ios do
   desc 'Run tests'
   lane :test do
     scan(
-      workspace: xc_workspace,
+      project: xc_project,
       scheme: tests_scheme
     )
   end
