@@ -1,4 +1,5 @@
 import UIKit
+import ScrollViewLayout
 
 class ViewController: UIViewController {
 
@@ -14,6 +15,16 @@ class ViewController: UIViewController {
 
     override func loadView() {
         view = View()
+        topViewLayoutController = ScrollViewLayoutController(
+            for: theView.topView,
+            in: theView.scrollView,
+            using: ScrollViewTopBackgroundLayout()
+        )
+        bottomViewLayoutController = ScrollViewLayoutController(
+            for: theView.bottomView,
+            in: theView.scrollView,
+            using: ScrollViewBottomBackgroundLayout()
+        )
     }
 
     override func viewDidLoad() {
@@ -24,5 +35,10 @@ class ViewController: UIViewController {
     private var theView: View! {
         return view as? View
     }
+
+    // MARK: Layout
+
+    private var topViewLayoutController: ScrollViewLayoutControlling?
+    private var bottomViewLayoutController: ScrollViewLayoutControlling?
 
 }
