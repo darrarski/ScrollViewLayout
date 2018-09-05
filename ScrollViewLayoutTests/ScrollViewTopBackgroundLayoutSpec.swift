@@ -61,10 +61,6 @@ class ScrollViewTopBackgroundLayoutSpec: QuickSpec {
                                 sut.updateLayout(for: view, in: scrollView)
                             }
 
-                            it("should view translate autoresizing mask into constraints") {
-                                expect(view.translatesAutoresizingMaskIntoConstraints) == true
-                            }
-
                             it("should view have correct frame") {
                                 expect(view.frame) == CGRect(x: 0, y: 150, width: 100, height: 0)
                             }
@@ -82,10 +78,6 @@ class ScrollViewTopBackgroundLayoutSpec: QuickSpec {
                             beforeEach {
                                 view = UIView(frame: .zero)
                                 sut.updateLayout(for: view, in: scrollView)
-                            }
-
-                            it("should view translate autoresizing mask into constraints") {
-                                expect(view.translatesAutoresizingMaskIntoConstraints) == true
                             }
 
                             it("should view have correct frame") {
