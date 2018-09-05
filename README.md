@@ -5,6 +5,8 @@
 [![CocoaPods](https://img.shields.io/cocoapods/v/ScrollViewLayout.svg)](https://cocoapods.org/pods/ScrollViewLayout)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
+![example_app_1.gif](Misc/example_app_1.gif)
+
 ## Install
 
 Minimum deployment target: **iOS 11.0**
