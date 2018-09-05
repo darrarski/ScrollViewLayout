@@ -44,9 +44,9 @@ bundle install
 bundle exec fastlane setup
 ```
 
-Then open `ScrollViewLayout.xcworkspace` in Xcode.
+Then open `ScrollViewLayout.xcodeproj` in Xcode.
 
-Use `ExampleApp` build scheme for building and runing demo app.
+Use `ExampleApp` build scheme for building and runing example app.
 
 Use `Tests` build scheme for runing tests.
 
@@ -55,6 +55,14 @@ To run tests from command line execute:
 ```sh
 bundle exec fastlane test
 ```
+
+To generate code coverage report in HTML format execute:
+
+```swift
+bundle exec fastlane coverage_html
+```
+
+The report will be saved to `code_coverage` directory.
 
 ## License
 

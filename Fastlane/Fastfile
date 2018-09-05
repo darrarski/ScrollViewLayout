@@ -22,4 +22,16 @@ platform :ios do
     )
   end
 
+  desc 'Generate test coverage report in HTML format'
+  lane :coverage_html do
+    slather(
+      proj: xc_project,
+      scheme: tests_scheme,
+      html: true,
+      show: false,
+      output_directory: 'coverage_report',
+      verbose: true
+    )
+  end
+
 end
