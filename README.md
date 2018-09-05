@@ -50,7 +50,7 @@ Then open `ScrollViewLayout.xcodeproj` in Xcode.
 
 Use `ExampleApp` build scheme for building and runing example app.
 
-Use `Tests` build scheme for runing tests.
+Use `ScrollViewLayout` build scheme for building and testing the framework.
 
 To run tests from command line execute:
 
