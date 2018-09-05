@@ -31,6 +31,20 @@ github "darrarski/ScrollViewLayout" ~> 1.0
 
 Example can be found in [ExampleApp](ExampleApp).
 
+**TL;DR:**
+
+```swift
+let layoutController = ScrollViewLayoutController(
+    for: subview,
+    in: scrollView,
+    using: ScrollViewLayoutUpdater { subview, scrollView in
+        // update subview's frame or constraints here
+    }
+)
+```
+
+Use `ScrollViewTopBackgroundLayout` or `ScrollViewBottomBackgroundLayout` updaters instead of generic `ScrollViewLayoutUpdater` to replicate behaviour from example app. Keep strong reference to the controller as long as the layout should be applied.
+
 ## Develop
 
 Requirements: 
