@@ -8,7 +8,10 @@ platform :ios do
 
   desc 'Bootstrap project'
   lane :setup do
-    carthage(platform: 'iOS')
+    carthage(
+      platform: 'iOS',
+      cache_builds: true
+    )
   end
 
   desc 'Run tests'
