@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		31321B62214052E500C25D5D /* ScrollViewLayoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31321B61214052E500C25D5D /* ScrollViewLayoutTests.swift */; };
+		31321B62214052E500C25D5D /* ScrollViewLayoutSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31321B61214052E500C25D5D /* ScrollViewLayoutSpec.swift */; };
 		31321B64214052E500C25D5D /* ScrollViewLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31BD3190213F2BBE009CDA5A /* ScrollViewLayout.framework */; };
 		31BD317A213F2789009CDA5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BD3179213F2789009CDA5A /* AppDelegate.swift */; };
 		31BD317C213F2789009CDA5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BD317B213F2789009CDA5A /* ViewController.swift */; };
@@ -17,6 +17,10 @@
 		31BD31A5213F2BBE009CDA5A /* ScrollViewLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31BD3190213F2BBE009CDA5A /* ScrollViewLayout.framework */; };
 		31BD31A6213F2BBE009CDA5A /* ScrollViewLayout.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 31BD3190213F2BBE009CDA5A /* ScrollViewLayout.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		31BD31AF213F2CDF009CDA5A /* ScrollViewLayoutController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BD31AE213F2CDF009CDA5A /* ScrollViewLayoutController.swift */; };
+		31BE02C02140570000A7F7C3 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31BE02BC2140561C00A7F7C3 /* Nimble.framework */; };
+		31BE02C12140570100A7F7C3 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31BE02BB2140561C00A7F7C3 /* Quick.framework */; };
+		31BE02C62140578200A7F7C3 /* Quick.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 31BE02BB2140561C00A7F7C3 /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		31BE02C72140579000A7F7C3 /* Nimble.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 31BE02BC2140561C00A7F7C3 /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,11 +52,22 @@
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		31BE02C42140576200A7F7C3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				31BE02C72140579000A7F7C3 /* Nimble.framework in CopyFiles */,
+				31BE02C62140578200A7F7C3 /* Quick.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		31321B5F214052E500C25D5D /* ScrollViewLayoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollViewLayoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		31321B61214052E500C25D5D /* ScrollViewLayoutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewLayoutTests.swift; sourceTree = "<group>"; };
+		31321B61214052E500C25D5D /* ScrollViewLayoutSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewLayoutSpec.swift; sourceTree = "<group>"; };
 		31321B63214052E500C25D5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		31BD3176213F2789009CDA5A /* ExampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31BD3179213F2789009CDA5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -64,6 +79,8 @@
 		31BD3192213F2BBE009CDA5A /* ScrollViewLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScrollViewLayout.h; sourceTree = "<group>"; };
 		31BD3193213F2BBE009CDA5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		31BD31AE213F2CDF009CDA5A /* ScrollViewLayoutController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewLayoutController.swift; sourceTree = "<group>"; };
+		31BE02BB2140561C00A7F7C3 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
+		31BE02BC2140561C00A7F7C3 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +89,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				31321B64214052E500C25D5D /* ScrollViewLayout.framework in Frameworks */,
+				31BE02C12140570100A7F7C3 /* Quick.framework in Frameworks */,
+				31BE02C02140570000A7F7C3 /* Nimble.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,7 +115,7 @@
 		31321B60214052E500C25D5D /* ScrollViewLayoutTests */ = {
 			isa = PBXGroup;
 			children = (
-				31321B61214052E500C25D5D /* ScrollViewLayoutTests.swift */,
+				31321B61214052E500C25D5D /* ScrollViewLayoutSpec.swift */,
 				31321B63214052E500C25D5D /* Info.plist */,
 			);
 			path = ScrollViewLayoutTests;
@@ -106,9 +125,10 @@
 			isa = PBXGroup;
 			children = (
 				31BD3178213F2789009CDA5A /* ExampleApp */,
+				31BE02BF2140562800A7F7C3 /* Frameworks */,
+				31BD3177213F2789009CDA5A /* Products */,
 				31BD3191213F2BBE009CDA5A /* ScrollViewLayout */,
 				31321B60214052E500C25D5D /* ScrollViewLayoutTests */,
-				31BD3177213F2789009CDA5A /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -144,6 +164,15 @@
 			path = ScrollViewLayout;
 			sourceTree = "<group>";
 		};
+		31BE02BF2140562800A7F7C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				31BE02BC2140561C00A7F7C3 /* Nimble.framework */,
+				31BE02BB2140561C00A7F7C3 /* Quick.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -165,6 +194,7 @@
 				31321B5B214052E500C25D5D /* Sources */,
 				31321B5C214052E500C25D5D /* Frameworks */,
 				31321B5D214052E500C25D5D /* Resources */,
+				31BE02C42140576200A7F7C3 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -286,7 +316,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31321B62214052E500C25D5D /* ScrollViewLayoutTests.swift in Sources */,
+				31321B62214052E500C25D5D /* ScrollViewLayoutSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +367,10 @@
 		31321B68214052E500C25D5D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = ScrollViewLayoutTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -353,6 +387,10 @@
 		31321B69214052E500C25D5D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = ScrollViewLayoutTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
