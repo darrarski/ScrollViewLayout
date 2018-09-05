@@ -16,14 +16,17 @@ class View: UIView {
     // MARK: Subviews
 
     let scrollView = UIScrollView(frame: .zero)
+    let topView = UIView(frame: .zero)
     let textLabel = UILabel(frame: .zero)
 
     private func setupSubviews() {
         scrollView.alwaysBounceVertical = true
+        topView.backgroundColor = .red
         textLabel.numberOfLines = 0
         textLabel.font = UIFontMetrics.default.scaledFont(for: UIFont.systemFont(ofSize: 21))
 
         addSubview(scrollView)
+        scrollView.addSubview(topView)
         scrollView.addSubview(textLabel)
     }
 
