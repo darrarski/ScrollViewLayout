@@ -1,6 +1,6 @@
 import UIKit
 
-public class ScrollViewLayoutController: ScrollViewLayoutControlling {
+public final class ScrollViewLayoutController: ScrollViewLayoutControlling {
 
     // MARK: ScrollViewLayoutControlling
 

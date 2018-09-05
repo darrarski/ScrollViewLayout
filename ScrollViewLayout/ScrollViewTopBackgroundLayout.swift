@@ -1,6 +1,6 @@
 import UIKit
 
-public class ScrollViewTopBackgroundLayout: ScrollViewLayoutUpdating {
+public final class ScrollViewTopBackgroundLayout: ScrollViewLayoutUpdating {
 
     public init() {}
 

@@ -1,6 +1,6 @@
 import UIKit
 
-public class ScrollViewLayoutUpdater: ScrollViewLayoutUpdating {
+public final class ScrollViewLayoutUpdater: ScrollViewLayoutUpdating {
 
     public init(_ update: @escaping (UIView, UIScrollView) -> Void) {
         self.update = update
