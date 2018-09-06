@@ -10,7 +10,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.rootViewController = tabBarController(with: [
             (Example1ViewController(), "Example 1"),
-            (Example2ViewController(), "Example 2")
+            (Example2ViewController(), "Example 2"),
+            (Example3ViewController(), "Example 3")
         ])
         window?.makeKeyAndVisible()
         return true

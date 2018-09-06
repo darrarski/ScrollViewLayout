@@ -13,6 +13,8 @@
 		31265E132141C3980078F405 /* ScrollViewController.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 31265E0A2141C3860078F405 /* ScrollViewController.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		31265E142141C3980078F405 /* ScrollViewKeyboardAvoider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31265E0C2141C3870078F405 /* ScrollViewKeyboardAvoider.framework */; };
 		31265E152141C3980078F405 /* ScrollViewKeyboardAvoider.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 31265E0C2141C3870078F405 /* ScrollViewKeyboardAvoider.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		31265E172141C58C0078F405 /* Example3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31265E162141C58C0078F405 /* Example3View.swift */; };
+		31265E192141C5950078F405 /* Example3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31265E182141C5950078F405 /* Example3ViewController.swift */; };
 		31321B62214052E500C25D5D /* ScrollViewLayoutSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31321B61214052E500C25D5D /* ScrollViewLayoutSpec.swift */; };
 		31321B64214052E500C25D5D /* ScrollViewLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31BD3190213F2BBE009CDA5A /* ScrollViewLayout.framework */; };
 		314015D82140582A00E3BABD /* Example1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314015D72140582A00E3BABD /* Example1View.swift */; };
@@ -94,6 +96,8 @@
 		31265E0A2141C3860078F405 /* ScrollViewController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScrollViewController.framework; path = Carthage/Build/iOS/ScrollViewController.framework; sourceTree = "<group>"; };
 		31265E0B2141C3870078F405 /* KeyboardFrameChangeListener.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KeyboardFrameChangeListener.framework; path = Carthage/Build/iOS/KeyboardFrameChangeListener.framework; sourceTree = "<group>"; };
 		31265E0C2141C3870078F405 /* ScrollViewKeyboardAvoider.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScrollViewKeyboardAvoider.framework; path = Carthage/Build/iOS/ScrollViewKeyboardAvoider.framework; sourceTree = "<group>"; };
+		31265E162141C58C0078F405 /* Example3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example3View.swift; sourceTree = "<group>"; };
+		31265E182141C5950078F405 /* Example3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example3ViewController.swift; sourceTree = "<group>"; };
 		31321B5F214052E500C25D5D /* ScrollViewLayoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollViewLayoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		31321B61214052E500C25D5D /* ScrollViewLayoutSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewLayoutSpec.swift; sourceTree = "<group>"; };
 		31321B63214052E500C25D5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -204,6 +208,8 @@
 				31BD317B213F2789009CDA5A /* Example1ViewController.swift */,
 				31ED23A62140B1DF005380C9 /* Example2View.swift */,
 				31ED23A42140B1D6005380C9 /* Example2ViewController.swift */,
+				31265E162141C58C0078F405 /* Example3View.swift */,
+				31265E182141C5950078F405 /* Example3ViewController.swift */,
 				31BD3185213F278A009CDA5A /* Info.plist */,
 				31BD3182213F278A009CDA5A /* LaunchScreen.storyboard */,
 				314015D921405A0900E3BABD /* String+LoremIpsum.swift */,
@@ -397,12 +403,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				31BD317C213F2789009CDA5A /* Example1ViewController.swift in Sources */,
+				31265E192141C5950078F405 /* Example3ViewController.swift in Sources */,
 				314015DA21405A0900E3BABD /* String+LoremIpsum.swift in Sources */,
 				31ED23A52140B1D6005380C9 /* Example2ViewController.swift in Sources */,
 				31ED23A32140AFAE005380C9 /* UIColor+Image.swift in Sources */,
 				31ED23A72140B1DF005380C9 /* Example2View.swift in Sources */,
 				31BD317A213F2789009CDA5A /* AppDelegate.swift in Sources */,
 				314015D82140582A00E3BABD /* Example1View.swift in Sources */,
+				31265E172141C58C0078F405 /* Example3View.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
