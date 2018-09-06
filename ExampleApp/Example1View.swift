@@ -1,6 +1,6 @@
 import UIKit
 
-class View: UIView {
+class Example1View: UIView {
 
     init() {
         super.init(frame: .zero)

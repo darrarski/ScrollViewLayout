@@ -8,6 +8,7 @@
 Customize layout of `UIScrollView`'s subviews using simple API.
 
 ![example_app_1.gif](Misc/example_app_1.gif)
+![example_app_2.gif](Misc/example_app_2.gif)
 
 ## Install
 
