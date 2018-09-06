@@ -9,7 +9,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                      didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.rootViewController = tabBarController(with: [
-            (Example1ViewController(), "Example 1")
+            (Example1ViewController(), "Example 1"),
+            (Example2ViewController(), "Example 2")
         ])
         window?.makeKeyAndVisible()
         return true

@@ -34,6 +34,9 @@
 		31BE02C62140578200A7F7C3 /* Quick.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 31BE02BB2140561C00A7F7C3 /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		31BE02C72140579000A7F7C3 /* Nimble.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 31BE02BC2140561C00A7F7C3 /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		31ED23A32140AFAE005380C9 /* UIColor+Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31ED23A22140AFAE005380C9 /* UIColor+Image.swift */; };
+		31ED23A52140B1D6005380C9 /* Example2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31ED23A42140B1D6005380C9 /* Example2ViewController.swift */; };
+		31ED23A72140B1DF005380C9 /* Example2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31ED23A62140B1DF005380C9 /* Example2View.swift */; };
+		31ED23A92140B2F5005380C9 /* cover_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 31ED23A82140B2F5005380C9 /* cover_image.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -107,6 +110,9 @@
 		31BE02BB2140561C00A7F7C3 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
 		31BE02BC2140561C00A7F7C3 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
 		31ED23A22140AFAE005380C9 /* UIColor+Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Image.swift"; sourceTree = "<group>"; };
+		31ED23A42140B1D6005380C9 /* Example2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example2ViewController.swift; sourceTree = "<group>"; };
+		31ED23A62140B1DF005380C9 /* Example2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example2View.swift; sourceTree = "<group>"; };
+		31ED23A82140B2F5005380C9 /* cover_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cover_image.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,8 +184,11 @@
 			children = (
 				31BD3179213F2789009CDA5A /* AppDelegate.swift */,
 				31BD3180213F278A009CDA5A /* Assets.xcassets */,
+				31ED23A82140B2F5005380C9 /* cover_image.jpg */,
 				314015D72140582A00E3BABD /* Example1View.swift */,
 				31BD317B213F2789009CDA5A /* Example1ViewController.swift */,
+				31ED23A62140B1DF005380C9 /* Example2View.swift */,
+				31ED23A42140B1D6005380C9 /* Example2ViewController.swift */,
 				31BD3185213F278A009CDA5A /* Info.plist */,
 				31BD3182213F278A009CDA5A /* LaunchScreen.storyboard */,
 				314015D921405A0900E3BABD /* String+LoremIpsum.swift */,
@@ -337,6 +346,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				31BD3184213F278A009CDA5A /* LaunchScreen.storyboard in Resources */,
+				31ED23A92140B2F5005380C9 /* cover_image.jpg in Resources */,
 				31BD3181213F278A009CDA5A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -370,7 +380,9 @@
 			files = (
 				31BD317C213F2789009CDA5A /* Example1ViewController.swift in Sources */,
 				314015DA21405A0900E3BABD /* String+LoremIpsum.swift in Sources */,
+				31ED23A52140B1D6005380C9 /* Example2ViewController.swift in Sources */,
 				31ED23A32140AFAE005380C9 /* UIColor+Image.swift in Sources */,
+				31ED23A72140B1DF005380C9 /* Example2View.swift in Sources */,
 				31BD317A213F2789009CDA5A /* AppDelegate.swift in Sources */,
 				314015D82140582A00E3BABD /* Example1View.swift in Sources */,
 			);
