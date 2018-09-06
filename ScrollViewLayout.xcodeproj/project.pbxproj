@@ -33,6 +33,7 @@
 		31BE02C12140570100A7F7C3 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31BE02BB2140561C00A7F7C3 /* Quick.framework */; };
 		31BE02C62140578200A7F7C3 /* Quick.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 31BE02BB2140561C00A7F7C3 /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		31BE02C72140579000A7F7C3 /* Nimble.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 31BE02BC2140561C00A7F7C3 /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		31ED23A32140AFAE005380C9 /* UIColor+Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31ED23A22140AFAE005380C9 /* UIColor+Image.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -105,6 +106,7 @@
 		31BD31AE213F2CDF009CDA5A /* ScrollViewLayoutController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewLayoutController.swift; sourceTree = "<group>"; };
 		31BE02BB2140561C00A7F7C3 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
 		31BE02BC2140561C00A7F7C3 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
+		31ED23A22140AFAE005380C9 /* UIColor+Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Image.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,6 +183,7 @@
 				31BD3185213F278A009CDA5A /* Info.plist */,
 				31BD3182213F278A009CDA5A /* LaunchScreen.storyboard */,
 				314015D921405A0900E3BABD /* String+LoremIpsum.swift */,
+				31ED23A22140AFAE005380C9 /* UIColor+Image.swift */,
 			);
 			path = ExampleApp;
 			sourceTree = "<group>";
@@ -367,6 +370,7 @@
 			files = (
 				31BD317C213F2789009CDA5A /* Example1ViewController.swift in Sources */,
 				314015DA21405A0900E3BABD /* String+LoremIpsum.swift in Sources */,
+				31ED23A32140AFAE005380C9 /* UIColor+Image.swift in Sources */,
 				31BD317A213F2789009CDA5A /* AppDelegate.swift in Sources */,
 				314015D82140582A00E3BABD /* Example1View.swift in Sources */,
 			);
