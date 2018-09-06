@@ -14,26 +14,26 @@ class Example1ViewController: UIViewController {
     // MARK: View
 
     override func loadView() {
-        view = View()
+        view = Example1View()
         topViewLayoutController = ScrollViewLayoutController(
-            for: theView.topView,
-            in: theView.scrollView,
+            for: exampleView.topView,
+            in: exampleView.scrollView,
             using: ScrollViewTopBackgroundLayout()
         )
         bottomViewLayoutController = ScrollViewLayoutController(
-            for: theView.bottomView,
-            in: theView.scrollView,
+            for: exampleView.bottomView,
+            in: exampleView.scrollView,
             using: ScrollViewBottomBackgroundLayout()
         )
     }
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        theView.textLabel.text = .loremIpsum
+        exampleView.textLabel.text = .loremIpsum
     }
 
-    private var theView: View! {
-        return view as? View
+    private var exampleView: Example1View! {
+        return view as? Example1View
     }
 
     // MARK: Layout
