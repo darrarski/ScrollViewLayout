@@ -1,7 +1,7 @@
 import UIKit
 import ScrollViewLayout
 
-class ViewController: UIViewController {
+class Example1ViewController: UIViewController {
 
     init() {
         super.init(nibName: nil, bundle: nil)
