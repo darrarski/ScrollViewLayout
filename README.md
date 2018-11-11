@@ -1,7 +1,7 @@
 # ScrollViewLayout
 
+![Swift v4.2](https://img.shields.io/badge/swift-v4.2-orange.svg)
 ![Platform iOS](https://img.shields.io/badge/platform-iOS-333333.svg)
-![Swift v4.1](https://img.shields.io/badge/swift-v4.1-orange.svg)
 [![CocoaPods](https://img.shields.io/cocoapods/v/ScrollViewLayout.svg)](https://cocoapods.org/pods/ScrollViewLayout)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
@@ -54,7 +54,7 @@ Requirements:
 
 - [Carthage](https://github.com/Carthage/Carthage)
 - Ruby with [Bundler](http://bundler.io)
-- Xcode 9
+- Xcode 10.1
 
 To setup the project run:
 
