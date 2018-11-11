@@ -6,11 +6,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
     func application(_ application: UIApplication,
-                     didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+                     didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.rootViewController = tabBarController(with: [
             (Example1ViewController(), "Example 1"),
-            (Example2ViewController(), "Example 2")
+            (Example2ViewController(), "Example 2"),
+            (Example3ViewController(), "Example 3")
         ])
         window?.makeKeyAndVisible()
         return true
