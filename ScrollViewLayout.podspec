@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                  = 'ScrollViewLayout'
-  s.version               = '1.0.0'
+  s.version               = '1.0.1'
   s.summary               = 'Customise layout of UIScrollView\'s subviews'
   s.homepage              = 'https://github.com/darrarski/ScrollViewLayout'
   s.author                = { 'Dariusz Rybicki' => 'darrarski@gmail.com' }
